@@ -1,0 +1,30 @@
+# Python virtual environments and caches
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Test, build, and temporary files
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
